@@ -1,8 +1,18 @@
-# React + Vite
+# Aplicación de Clima en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una simple aplicación de clima desarrollada en React que te permite obtener información sobre el clima de una ciudad ingresada por el usuario. La aplicación utiliza la API de OpenWeatherMap para recuperar los datos del clima.
 
-Currently, two official plugins are available:
+## Estructura de Carpetas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `src/`: Contiene los archivos fuente de la aplicación.
+  - `components/`: Componentes de React.
+  - `api/`: Funciones para interactuar con la API de OpenWeatherMap.
+- `public/`: Contiene archivos estáticos como imágenes.
+
+## Dependencias
+
+- React
+- Axios (para realizar solicitudes HTTP)
+- Bootstrap (para estilos básicos)
+- [API de OpenWeatherMap](https://openweathermap.org/api) (necesitas obtener una clave de API)
+
